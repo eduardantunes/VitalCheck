@@ -1,0 +1,28 @@
+.icon {
+  max-height: 1.6rem;
+  width: auto;
+}
+
+.record {
+  width: 99%;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem;
+  gap: 0.4rem;
+  background-color: rgba(241, 246, 255, 0.89);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.record .title {
+  color: var(--neutral);
+  font-size: 0.9rem;
+}
+.record .body {
+  display: flex;
+  justify-content: space-between;
+}
+.record .body .insight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=HistoryRecord.css.map */

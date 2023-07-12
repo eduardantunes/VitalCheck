@@ -1,0 +1,39 @@
+.icon {
+  max-height: 1.6rem;
+  width: auto;
+}
+
+.statistics {
+  position: relative;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  background-color: #fff;
+}
+.statistics .action {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+}
+
+.card .header {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+.card .body {
+  display: flex;
+  justify-content: space-between;
+}
+.card .body .insight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0.4rem;
+}
+.card .body .insight .label {
+  color: var(--neutral);
+  font-size: 0.85rem;
+  text-transform: capitalize;
+}/*# sourceMappingURL=Panel.css.map */

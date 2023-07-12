@@ -1,0 +1,50 @@
+.icon {
+  max-height: 1.6rem;
+  width: auto;
+}
+
+.month_report {
+  width: 100%;
+  max-width: 70rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.month_report > h2 {
+  color: var(--neutral);
+  margin: 1.4rem 0 0.4rem 0;
+}
+.month_report .header {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+.month_report .statistics {
+  position: relative;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  background-color: #fff;
+}
+.month_report .statistics .action {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.month_report .card .body {
+  display: flex;
+  justify-content: space-between;
+}
+.month_report .card .body .insight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0.4rem;
+}
+.month_report .card .body .insight .label {
+  color: var(--neutral);
+  font-size: 0.85rem;
+  text-transform: capitalize;
+}/*# sourceMappingURL=MonthReport.css.map */
